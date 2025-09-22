@@ -1,0 +1,59 @@
+{
+  "name": "ever-expanding-dataset",
+  "version": "1.0.0",
+  "description": "AI-powered correlation discovery system",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "remotion studio",
+    "dev": "remotion studio",
+    "build": "remotion render",
+    "preview": "remotion preview",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src tests",
+    "typecheck": "tsc --noEmit",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js",
+    "render:thariq": "remotion render ThariqReply out/thariq-reply.mp4",
+    "render:gravity": "remotion render ReverseGravity out/reverse-gravity.mp4"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "joi": "^17.11.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "puppeteer": "^24.22.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.350",
+    "@remotion/player": "^4.0.350",
+    "@remotion/transitions": "^4.0.350",
+    "@types/jest": "^29.5.8",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.19.17",
+    "@types/react": "^19.1.13",
+    "@types/uuid": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "remotion": "^4.0.350",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.9.2"
+  },
+  "keywords": [
+    "ai",
+    "correlation",
+    "discovery",
+    "database",
+    "machine-learning"
+  ],
+  "author": "Ever-Expanding Dataset Team",
+  "license": "MIT"
+}
